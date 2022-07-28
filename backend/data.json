@@ -1,0 +1,254 @@
+{
+    "users": [
+      {
+        "email": "tina@gmail.com",
+        "password": "tinsy44xx",
+        "firstname": "Tina",
+        "lastname": "Jacobs"
+      },
+      {
+        "email": "John",
+        "password": "johhny7844##",
+        "firstname": "Johnathan",
+        "lastname": "D sa"
+      },
+      {
+        "firstname": "Ravi",
+        "lastname": "Raj",
+        "email": "raj1980@gmail.com",
+        "password": "asdasd"
+      }
+    ],
+    "orders": [
+      {
+       
+        "dish": "Veg Manchow Soup",
+        "price": 160,
+        "isveg": true,
+        "restaurant": "Taj Vivanta"
+      },
+      {
+       
+        "dish": "Veg Manchow Soup",
+        "price": 160,
+        "isveg": true,
+        "restaurant": "MacDonalds"
+      },
+      {
+       
+        "dish": "Chicken Manchow Soup",
+        "price": 524,
+        "isveg": false,
+        "restaurant": "Novotel"
+      },
+      {
+       
+        "dish": "Chicken Tandoori",
+        "price": 456,
+        "isveg": false,
+        "restaurant": "Shabnam"
+      },
+      {
+       
+        "dish": "Chinese Noodles",
+        "price": 270,
+        "isveg": true,
+        "restaurant": "Woodland"
+      },
+      {
+       
+        "dish": "Veg Biryani",
+        "price": 499,
+        "isveg": true,
+        "restaurant": "Swagath Grand"
+      },
+      {
+       
+        "dish": "Paneer mushroom",
+        "price": 520,
+        "isveg": true,
+        "restaurant": "Delhi Darbar"
+      }
+    ],
+     "restaurants": [
+      {
+       
+        "name": "Taj Vivanta",
+        "address": "Viman Nagar, Near airport",
+        "city": "Pune",
+        "costfortwo": {"min" :1000 ,"max":1500},
+        "contact": 918983233321,
+        "mealtypes": [
+          "Lunch",
+          "NightLife",
+          "Snacks"
+        ],
+        "cuisines": [
+          "North Indian",
+          "Fast Food"
+        ],
+          "images": [ 
+          "https://preview.pixlr.com/images/450nwm/1196/2/1196113615.jpg",
+          "https://preview.pixlr.com/images/450nwm/1042/2/1042101530.jpg"
+        ],
+        "thumbnail": "https://preview.pixlr.com/images/450nwm/1442/2/1442101033.jpg"
+      },
+      {
+        
+        "name": "Delhi Darbar",
+        "address": "Anand Vihar",
+        "city": "Delhi",
+        "costfortwo": {"min" :1000 , "max" : 1500},
+        "contact": 91777000034,
+        "mealtypes": [
+          "Lunch",
+          "NightLife",
+          "Snacks"
+        ],
+        "cuisines": [
+          "North Indian",
+          "Fast Food"
+        ],
+        "images": [
+          "https://preview.pixlr.com/images/450nwm/1196/2/1196113615.jpg",
+          "https://preview.pixlr.com/images/450nwm/1042/2/1042101530.jpg"
+        ],
+        "thumbnail": "https://preview.pixlr.com/images/450nwm/1442/2/1442101033.jpg"
+      },
+      {
+        
+        "name": "Swagath Grand",
+        "address": "A.S.Rao Nagar, Near Bharat Petrol",
+        "city": "Hyderabad",
+        "costfortwo": {"min" :1000 ,"max" : 1500},
+        "contact": 91777000034,
+        "mealtypes": [
+          "Lunch",
+          "NightLife",
+          "Snacks"
+        ],
+        "cuisines": [
+          "South  Indian",
+          "Fast Food"
+        ],
+        "images": [
+          "https://preview.pixlr.com/images/450nwm/1196/2/1196113615.jpg",
+          "https://preview.pixlr.com/images/450nwm/1042/2/1042101530.jpg"
+        ],
+        "thumbnail": "https://preview.pixlr.com/images/450nwm/1442/2/1442101033.jpg"
+      },
+      {
+        
+        "name": "Novotel",
+        "address": "Paradise,Clock Tower",
+        "city": "Hyderabad",
+        "costfortwo": {"min" : 1500 ,"max" :2000},
+        "contact": 91777000034,
+        "mealtypes": [
+          "Lunch",
+          "Snacks"
+        ],
+        "cuisines": [
+          "South Indian",
+          "Chinese"
+        ],
+        "images": [
+          "https://preview.pixlr.com/images/450nwm/1196/2/1196113615.jpg",
+          "https://preview.pixlr.com/images/450nwm/1042/2/1042101530.jpg"
+        ],
+        "thumbnail" : "https://preview.pixlr.com/images/450nwm/1442/2/1442101033.jpg"
+      },{
+       
+        "name": "Woodland",
+        "address": "Kompally 'X' Roads",
+        "city": "Hyderabad",
+        "costfortwo": {"min" :0 ,"max" :500},
+        "contact": 91777000034,
+        "mealtypes": [
+          "Snacks"
+        ],
+        "cuisines": [
+          "Chinese",
+          "Fast Food"
+        ],
+        "images": [
+          "https://preview.pixlr.com/images/450nwm/1196/2/1196113615.jpg",
+          "https://preview.pixlr.com/images/450nwm/1042/2/1042101530.jpg"
+        ],
+        "thumbnail": "https://preview.pixlr.com/images/450nwm/1442/2/1442101033.jpg"
+      },
+      {
+        
+        "name": "MacDonalds",
+        "address": "Jubliee  Hills, Near Play School",
+        "city": "Hyderabad",
+        "costfortwo": {"min" : 1000 ,"max": 1500},
+        "contact": 91777000034,
+        "mealtypes": [
+          "Lunch",
+          "Snacks"
+        ],
+        "cuisines": [
+          "North Indian",
+          "South Indian"
+        ],
+        "images": [
+          "https://preview.pixlr.com/images/450nwm/1196/2/1196113615.jpg",
+          "https://preview.pixlr.com/images/450nwm/1042/2/1042101530.jpg"
+        ],
+        "thumbnail": "https://preview.pixlr.com/images/450nwm/1442/2/1442101033.jpg"   
+        },
+      {
+       
+        "name": "Shabnam",
+        "address": "Chandni Chowk",
+        "city": "Pune",
+        "costfortwo": {"min": 500, "max":1000},
+        "contact": 91777000034,
+        "mealtypes": [
+          "NightLife"
+        ],
+        "cuisines": [
+          "North Indian",
+          "Drinks"
+        ],
+        "images": [
+          "https://preview.pixlr.com/images/450nwm/1196/2/1196113615.jpg",
+          "https://preview.pixlr.com/images/450nwm/1042/2/1042101530.jpg"
+        ],
+        "thumbnail": "https://preview.pixlr.com/images/450nwm/1442/2/1442101033.jpg"
+      }
+    ],
+    
+    "locations": [
+      {
+        "address": "Viman Nagar, Near Airport",
+        "city": "Pune"
+      },
+      {
+        "address": "Anand Vihar",
+        "city": "Delhi"
+      },
+      {
+        "address": "Paradise,Clock Tower",
+        "city": "Hyderabad"
+      },
+      {
+        "address": "A.S.Rao Nagar, Near Bharat Petrol",
+        "city": "Hyderabad"
+      },
+      {
+        "address": "Kompally 'X' Roads",
+        "city": "Hyderabad"
+      }, 
+      {
+        "address": "Jubliee  Hills, Near Play School",
+        "city": "Hyderabad"
+      },
+      {
+        "address": "Chandni Chowk",
+        "city": "Pune"
+      }
+    ]
+  }
+  
